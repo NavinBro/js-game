@@ -1,0 +1,91 @@
+
+body{
+  background: url(/images/bgi3.jpg) no-repeat 0 0;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+#stage{
+  width: 800px;
+  height: 600px;
+  border: 10px solid green;
+  position: absolute;
+  margin: 72px auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  box-shadow: 0 0 0 15px;
+}
+.money{
+  width: 24px;
+  height: 24px;
+  background-image: url(svg/ic_attach_money_white_24px.svg);
+}
+.person{
+  width: 24px;
+  height: 24px;
+  background-image: url(svg/ic_person_pin_white_24px.svg);
+}
+.bombv{
+  width: 24px;
+  height: 24px;
+  background-image: url(svg/ic_bug_report_white_24px.svg);
+
+}
+.bomb{
+  width: 22px;
+  height: 22px;
+  border: 1px dotted green;
+  background-color: darkgreen;
+}
+.shildv{
+  width: 24px;
+  height: 24px;
+  background-image: url(svg/ic_verified_user_white_24px.svg);
+}
+.shild{
+  width: 22px;
+  height: 22px;
+  border: 1px dotted green;
+  background-color: darkgreen;
+}
+.free{
+  width: 22px;
+  height: 22px;
+  border: 1px dotted green;
+  background: darkgreen;
+}
+.path{
+  width: 22px;
+  height: 22px;
+  border: 1px dotted black;
+  background-color: gray;
+}
+#stage>div{
+  float: left;
+}
+#user{
+  color: white;
+  float: left;
+  margin: 0px 45px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #000;
+}
+.notification{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  margin-right: 165px;
+}
+.rules{
+  color: #fff;
+}
+.wrap{
+  width: 1100px;
+  margin: 0 auto;
+}
